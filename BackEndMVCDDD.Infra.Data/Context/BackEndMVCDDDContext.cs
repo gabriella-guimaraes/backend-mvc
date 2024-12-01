@@ -1,4 +1,5 @@
 ﻿using BackEndMVCDDD.Domain.Entities;
+using BackEndMVCDDD.Infra.Data.EntityConfig;
 using System;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
@@ -40,6 +41,8 @@ namespace BackEndMVCDDD.Infra.Data.Context
             // Padronização de tamanho para strings
             modelBuilder.Properties<string>()
                 .Configure(prop => prop.HasMaxLength(100));
+
+            modelBuilder.Configurations.Add(new ClientConfiguration());
 
         }
         // Pré configuração para o campo de DateTime no momento de mudanças
