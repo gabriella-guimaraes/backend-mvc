@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Context\BackEndMVCDDDContext.cs" />
     <Compile Include="EntityConfig\ClientConfiguration.cs" />
+    <Compile Include="EntityConfig\ProductConfiguration.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

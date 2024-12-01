@@ -17,6 +17,7 @@ namespace BackEndMVCDDD.Infra.Data.Context
         }
 
         public DbSet<Client> Clients { get; set; }
+        public DbSet<Product> Products { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -43,6 +44,7 @@ namespace BackEndMVCDDD.Infra.Data.Context
                 .Configure(prop => prop.HasMaxLength(100));
 
             modelBuilder.Configurations.Add(new ClientConfiguration());
+            modelBuilder.Configurations.Add(new ProductConfiguration());
 
         }
         // Pré configuração para o campo de DateTime no momento de mudanças

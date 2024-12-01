@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{158B3C19-9D39-4CFF-AC04-984DC096C471}|BackEndMVCDDD.Infra.Data\\BackEndMVCDDD.Infra.Data.csproj|d:\\gabi\\projects\\c#\\asp.net\\backendmvcddd\\backendmvcddd.infra.data\\entityconfig\\clientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{158B3C19-9D39-4CFF-AC04-984DC096C471}|BackEndMVCDDD.Infra.Data\\BackEndMVCDDD.Infra.Data.csproj|solutionrelative:backendmvcddd.infra.data\\entityconfig\\clientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{158B3C19-9D39-4CFF-AC04-984DC096C471}|BackEndMVCDDD.Infra.Data\\BackEndMVCDDD.Infra.Data.csproj|d:\\gabi\\projects\\c#\\asp.net\\backendmvcddd\\backendmvcddd.infra.data\\context\\backendmvcdddcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{158B3C19-9D39-4CFF-AC04-984DC096C471}|BackEndMVCDDD.Infra.Data\\BackEndMVCDDD.Infra.Data.csproj|solutionrelative:backendmvcddd.infra.data\\context\\backendmvcdddcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{158B3C19-9D39-4CFF-AC04-984DC096C471}|BackEndMVCDDD.Infra.Data\\BackEndMVCDDD.Infra.Data.csproj|d:\\gabi\\projects\\c#\\asp.net\\backendmvcddd\\backendmvcddd.infra.data\\entityconfig\\clientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{158B3C19-9D39-4CFF-AC04-984DC096C471}|BackEndMVCDDD.Infra.Data\\BackEndMVCDDD.Infra.Data.csproj|solutionrelative:backendmvcddd.infra.data\\entityconfig\\clientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{158B3C19-9D39-4CFF-AC04-984DC096C471}|BackEndMVCDDD.Infra.Data\\BackEndMVCDDD.Infra.Data.csproj|d:\\gabi\\projects\\c#\\asp.net\\backendmvcddd\\backendmvcddd.infra.data\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ClientConfiguration.cs",
               "DocumentMoniker": "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.Infra.Data\\EntityConfig\\ClientConfiguration.cs",
               "RelativeDocumentMoniker": "BackEndMVCDDD.Infra.Data\\EntityConfig\\ClientConfiguration.cs",
@@ -56,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BackEndMVCDDDContext.cs",
               "DocumentMoniker": "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.Infra.Data\\Context\\BackEndMVCDDDContext.cs",
               "RelativeDocumentMoniker": "BackEndMVCDDD.Infra.Data\\Context\\BackEndMVCDDDContext.cs",
               "ToolTip": "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.Infra.Data\\Context\\BackEndMVCDDDContext.cs",
               "RelativeToolTip": "BackEndMVCDDD.Infra.Data\\Context\\BackEndMVCDDDContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwC4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwCwAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T15:03:51.86Z",
               "EditorCaption": ""
