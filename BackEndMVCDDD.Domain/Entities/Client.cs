@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace BackEndMVCDDD.Domain.Entities
 {
@@ -10,6 +11,7 @@ namespace BackEndMVCDDD.Domain.Entities
         public string Email { get; set; }
         public DateTime SubscriptionDate { get; set; }
         public bool IsActive { get; set; }
+        public virtual IEnumerable<Product> Products { get; set; }
 
         //Regra de Negócio
         public bool SpecialClient(Client client)
