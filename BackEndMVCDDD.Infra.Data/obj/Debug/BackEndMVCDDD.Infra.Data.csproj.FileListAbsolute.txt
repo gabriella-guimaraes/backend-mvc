@@ -1,0 +1,17 @@
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\bin\Debug\BackEndMVCDDD.Infra.Data.dll.config
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\bin\Debug\BackEndMVCDDD.Infra.Data.dll
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\bin\Debug\BackEndMVCDDD.Infra.Data.pdb
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\bin\Debug\BackEndMVCDDD.Domain.dll
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\bin\Debug\EntityFramework.dll
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\bin\Debug\Microsoft.Analytics.Interfaces.dll
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\bin\Debug\Microsoft.Analytics.Types.dll
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\bin\Debug\BackEndMVCDDD.Domain.pdb
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\bin\Debug\EntityFramework.xml
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\obj\Debug\BackEndMVCDDD.Infra.Data.csproj.AssemblyReference.cache
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\obj\Debug\BackEndMVCDDD.Infra.Data.csproj.CoreCompileInputs.cache
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\obj\Debug\BackEndM.A4273380.Up2Date
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\obj\Debug\BackEndMVCDDD.Infra.Data.dll
+D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Infra.Data\obj\Debug\BackEndMVCDDD.Infra.Data.pdb
