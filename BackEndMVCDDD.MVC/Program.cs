@@ -1,4 +1,9 @@
+using BackEndMVCDDD.MVC.AutoMapper;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// AutoMapper - config para a injeção de dependência
+builder.Services.AddAutoMapper(typeof(ViewModelToDomainMappingProfile), typeof(ViewModelToDomainMappingProfile));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

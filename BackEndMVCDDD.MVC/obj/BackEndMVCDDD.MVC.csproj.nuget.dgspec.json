@@ -4,6 +4,21 @@
     "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.MVC\\BackEndMVCDDD.MVC.csproj": {}
   },
   "projects": {
+    "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj",
+        "projectName": "BackEndMVCDDD.Domain",
+        "projectPath": "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.MVC\\BackEndMVCDDD.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -28,7 +43,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj": {
+                "projectPath": "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -46,6 +65,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "EntityFramework": {
               "target": "Package",
               "version": "[6.5.1, )"

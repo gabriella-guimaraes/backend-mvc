@@ -7,11 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="EntityFramework" Version="6.5.1" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="App.Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BackEndMVCDDD.Domain\BackEndMVCDDD.Domain.csproj" />
   </ItemGroup>
 
 </Project>
