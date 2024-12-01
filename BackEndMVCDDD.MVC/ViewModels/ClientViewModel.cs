@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace BackEndMVCDDD.MVC.ViewModels
 {
-    public class Client
+    public class ClientViewModel
     {
         //Representação de Client
         // ViewModels não devem ter comportamentos, apenas representações
@@ -29,6 +29,6 @@ namespace BackEndMVCDDD.MVC.ViewModels
         [ScaffoldColumn(false)]
         public DateTime SubscriptionDate { get; set; }
         public bool IsActive { get; set; }
-        //public virtual IEnumerable<Product> Products { get; set; }
+        public virtual IEnumerable<ProductViewModel> Products { get; set; }
     }
 }
