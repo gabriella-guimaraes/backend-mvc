@@ -4,3 +4,9 @@ D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Domain\obj\Debug\BackEnd
 D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Domain\obj\Debug\BackEndMVCDDD.Domain.csproj.CoreCompileInputs.cache
 D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Domain\obj\Debug\BackEndMVCDDD.Domain.dll
 D:\Gabi\Projects\C#\ASP.NET\BackEndMVCDDD\BackEndMVCDDD.Domain\obj\Debug\BackEndMVCDDD.Domain.pdb
+D:\Gabi\Projects\C#\MVC\BackEndMVCDDD\BackEndMVCDDD.Domain\bin\Debug\BackEndMVCDDD.Domain.dll
+D:\Gabi\Projects\C#\MVC\BackEndMVCDDD\BackEndMVCDDD.Domain\bin\Debug\BackEndMVCDDD.Domain.pdb
+D:\Gabi\Projects\C#\MVC\BackEndMVCDDD\BackEndMVCDDD.Domain\obj\Debug\BackEndMVCDDD.Domain.csproj.AssemblyReference.cache
+D:\Gabi\Projects\C#\MVC\BackEndMVCDDD\BackEndMVCDDD.Domain\obj\Debug\BackEndMVCDDD.Domain.csproj.CoreCompileInputs.cache
+D:\Gabi\Projects\C#\MVC\BackEndMVCDDD\BackEndMVCDDD.Domain\obj\Debug\BackEndMVCDDD.Domain.dll
+D:\Gabi\Projects\C#\MVC\BackEndMVCDDD\BackEndMVCDDD.Domain\obj\Debug\BackEndMVCDDD.Domain.pdb

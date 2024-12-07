@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.MVC\\BackEndMVCDDD.MVC.csproj": {}
+    "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.MVC\\BackEndMVCDDD.MVC.csproj": {}
   },
   "projects": {
-    "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj": {
+    "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj",
+        "projectUniqueName": "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj",
         "projectName": "BackEndMVCDDD.Domain",
-        "projectPath": "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj",
+        "projectPath": "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,14 +19,33 @@
         "net472": {}
       }
     },
-    "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.MVC\\BackEndMVCDDD.MVC.csproj": {
+    "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.Infra.Data\\BackEndMVCDDD.Infra.Data.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.Infra.Data\\BackEndMVCDDD.Infra.Data.csproj",
+        "projectName": "BackEndMVCDDD.Infra.Data",
+        "projectPath": "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.Infra.Data\\BackEndMVCDDD.Infra.Data.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj": {
+                "projectPath": "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.MVC\\BackEndMVCDDD.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.MVC\\BackEndMVCDDD.MVC.csproj",
+        "projectUniqueName": "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.MVC\\BackEndMVCDDD.MVC.csproj",
         "projectName": "BackEndMVCDDD.MVC",
-        "projectPath": "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.MVC\\BackEndMVCDDD.MVC.csproj",
+        "projectPath": "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.MVC\\BackEndMVCDDD.MVC.csproj",
         "packagesPath": "C:\\Users\\gabig\\.nuget\\packages\\",
-        "outputPath": "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.MVC\\obj\\",
+        "outputPath": "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabig\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,8 +63,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj": {
-                "projectPath": "D:\\Gabi\\Projects\\C#\\ASP.NET\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj"
+              "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj": {
+                "projectPath": "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.Domain\\BackEndMVCDDD.Domain.csproj"
+              },
+              "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.Infra.Data\\BackEndMVCDDD.Infra.Data.csproj": {
+                "projectPath": "D:\\Gabi\\Projects\\C#\\MVC\\BackEndMVCDDD\\BackEndMVCDDD.Infra.Data\\BackEndMVCDDD.Infra.Data.csproj"
               }
             }
           }
@@ -72,6 +94,10 @@
             "EntityFramework": {
               "target": "Package",
               "version": "[6.5.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [
@@ -93,7 +119,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

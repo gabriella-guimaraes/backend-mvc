@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BackEndMVCDDD.MVC.props" />
+</Project>
