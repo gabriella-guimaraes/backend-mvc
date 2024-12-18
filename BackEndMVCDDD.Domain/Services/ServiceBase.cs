@@ -26,12 +26,12 @@ namespace BackEndMVCDDD.Domain.Services
             _repositoryBase.Dispose();
         }
 
-        public IEnumerable<TEntity> GetAll()
+        public IEnumerable<TEntity> GetAll() //CS0161
         {
             _repositoryBase.GetAll();
         }
 
-        public TEntity GetById(int id)
+        public TEntity GetById(int id) //CS0161
         {
             _repositoryBase.GetById(id);
         }
