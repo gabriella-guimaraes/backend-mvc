@@ -1,7 +1,7 @@
 ﻿
 using System.Collections.Generic;
 
-namespace BackEndMVCDDD.Domain.Interfaces
+namespace BackEndMVCDDD.Domain.Interfaces.Repositories
 {
     public interface IRepositoryBase<TEntity> where TEntity : class // Genérico com trataiva de classe
     {
