@@ -44,7 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interface\IAppServiceBase.cs" />
+    <Compile Include="Interface\IClientAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BackEndMVCDDD.Domain\BackEndMVCDDD.Domain.csproj">
+      <Project>{54f48ca5-51af-4800-b6f3-a772b84ca04e}</Project>
+      <Name>BackEndMVCDDD.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
