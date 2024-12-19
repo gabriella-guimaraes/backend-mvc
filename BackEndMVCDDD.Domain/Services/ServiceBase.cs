@@ -28,12 +28,12 @@ namespace BackEndMVCDDD.Domain.Services
 
         public IEnumerable<TEntity> GetAll() //CS0161
         {
-            _repositoryBase.GetAll();
+            return _repositoryBase.GetAll();
         }
 
         public TEntity GetById(int id) //CS0161
         {
-            _repositoryBase.GetById(id);
+            return _repositoryBase.GetById(id);
         }
 
         public void Remove(TEntity obj)
